@@ -54,7 +54,7 @@ const Register = () => {
             let regobj = { id, name, password, email, phone, country, address, gender };
             if (IsValidate()) {
             //console.log(regobj);
-            fetch("https://my-json-server.typicode.com/jamespeterjacob/adonai/users", {
+            fetch("https://my-json-server.typicode.com/jamespeterjacob/jsonserver/users", {
                 method: "POST",
                 headers: { 'content-type': 'application/json' },
                 body: JSON.stringify(regobj)

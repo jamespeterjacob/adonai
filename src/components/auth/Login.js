@@ -25,7 +25,7 @@ sessionStorage.clear();
         if (validate()) {
             ///implentation
             // console.log('proceed');
-            fetch("https://my-json-server.typicode.com/jamespeterjacob/adonai/user/" + username).then((res) => {
+            fetch("https://my-json-server.typicode.com/jamespeterjacob/jsonserver/user/" + username).then((res) => {
                 return res.json();
             }).then((resp) => {
                 //console.log(resp)
@@ -54,7 +54,7 @@ sessionStorage.clear();
             // console.log('proceed');
             let inputobj={"username": username,
             "password": password};
-            fetch("https://my-json-server.typicode.com/jamespeterjacob/adonai:44308/User/Authenticate",{
+            fetch("https://my-json-server.typicode.com/jamespeterjacob/jsonserver:44308/User/Authenticate",{
                 method:'POST',
                 headers:{'content-type':'application/json'},
                 body:JSON.stringify(inputobj)
