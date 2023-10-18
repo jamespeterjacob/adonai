@@ -2,5 +2,5 @@
 import axios from 'axios';
 
 export default axios.create({
-  baseURL: 'http://localhost:8000', // Change to your JSON server URL
+  baseURL: 'https://my-json-server.typicode.com/jamespeterjacob/adonai', // Change to your JSON server URL
 });
