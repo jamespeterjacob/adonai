@@ -25,7 +25,7 @@ sessionStorage.clear();
         if (validate()) {
             ///implentation
             // console.log('proceed');
-            fetch("http://localhost:8000/user/" + username).then((res) => {
+            fetch("http://jamespeterjacob.github.io:8000/user/" + username).then((res) => {
                 return res.json();
             }).then((resp) => {
                 //console.log(resp)
@@ -54,7 +54,7 @@ sessionStorage.clear();
             // console.log('proceed');
             let inputobj={"username": username,
             "password": password};
-            fetch("https://localhost:44308/User/Authenticate",{
+            fetch("https://jamespeterjacob.github.io:44308/User/Authenticate",{
                 method:'POST',
                 headers:{'content-type':'application/json'},
                 body:JSON.stringify(inputobj)
