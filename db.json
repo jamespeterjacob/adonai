@@ -1,0 +1,87 @@
+{
+  "records": [
+    {
+      "accountName": "Account100",
+      "opportunityName": "Opportunity1",
+      "auditType": "Data",
+      "userName": "User1",
+      "id": 4
+    },
+    {
+      "date": "2023-09-23T08:03:13.082Z",
+      "accountName": "Account10",
+      "opportunityName": "Opportunity11",
+      "auditType": "Voice",
+      "userName": "User2",
+      "question1": "Yes",
+      "question2": "Yes",
+      "question3": "Yes",
+      "question4": "Yes",
+      "question5": "Yes",
+      "question6": "Yes",
+      "question7": "Yes",
+      "question8": "No",
+      "question9": "No",
+      "question10": "No",
+      "comments": "",
+      "totalPercentage": 70,
+      "id": 5
+    },
+    {
+      "date": "2023-10-06T21:34:33.156Z",
+      "accountName": "Account 7",
+      "opportunityName": "Opp7",
+      "auditType": "Data",
+      "userName": "jamespeterjacob",
+      "question1": "No",
+      "question2": "No",
+      "question3": "No",
+      "question4": "No",
+      "question5": "No",
+      "question6": "No",
+      "question7": "No",
+      "question8": "Yes",
+      "question9": "Yes",
+      "question10": "Yes",
+      "comments": "",
+      "totalPercentage": 30,
+      "id": 6
+    }
+  ],
+  "user": [
+    {
+      "id": "adminuser",
+      "name": "Nihira",
+      "password": "admin",
+      "email": "nihiratechiees@gmail.com",
+      "phone": "8989898989",
+      "country": "usa",
+      "address": "",
+      "role": "admin",
+      "gender": "female"
+    },
+    {
+      "id": "ntuser",
+      "name": "Fullname",
+      "password": "ntuser",
+      "email": "email@email.com",
+      "phone": "56778889989",
+      "country": "singapore",
+      "address": "address1\naddrees2",
+      "role": "user",
+      "gender": "male"
+    }
+  ],
+  "jobs": [
+    {
+      "title": "Program Manager",
+      "description": "+10 years of creating complete cloud architectures",
+      "id": 3
+    },
+    {
+      "title": "Full Stack Developer",
+      "description": "+5years of experience developing frocloud applicationsntend and backends for ",
+      "id": 4
+    }
+  ]
+}
