@@ -49,14 +49,14 @@ function App() {
       <Routes>
        
        {/* <Route path='/' element={<Home/>}></Route>  */}
-      <Route path='/login' element={<Login/>}>Login</Route>
-      <Route path='/register' element={<Register/>}>Register</Route>
-      <Route path="/recordlist" element={<RecordList />} />
-      <Route path="/add-record" element={<RecordForm />} />
-      <Route path="/edit-record/:id" element={<EditRecord />} />
-      <Route path="/joblist" element={<JobList />} />
-      <Route path="/add-job" element={<JobForm />} />
-      <Route path="/edit-job/:id" element={<EditJob />} />
+      <Route path='https://jamespeterjacob.github.io/login' element={<Login/>}>Login</Route>
+      <Route path='https://jamespeterjacob.github.io/register' element={<Register/>}>Register</Route>
+      <Route path="https://jamespeterjacob.github.io/recordlist" element={<RecordList />} />
+      <Route path="https://jamespeterjacob.github.io/add-record" element={<RecordForm />} />
+      <Route path="https://jamespeterjacob.github.io/edit-record/:id" element={<EditRecord />} />
+      <Route path="https://jamespeterjacob.github.io/joblist" element={<JobList />} />
+      <Route path="https://jamespeterjacob.github.io/add-job" element={<JobForm />} />
+      <Route path="https://jamespeterjacob.github.io/edit-job/:id" element={<EditJob />} />
       
     </Routes>
       </div>
