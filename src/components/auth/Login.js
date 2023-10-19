@@ -36,7 +36,7 @@ sessionStorage.clear();
                         toast.success('Success');
                         sessionStorage.setItem('username',username);
                         sessionStorage.setItem('userrole',resp.role);
-                        usenavigate('/');
+                        usenavigate('/recordlist');
                     }else{
                         toast.error('Please Enter valid credentials');
                     }
