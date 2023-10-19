@@ -25,7 +25,7 @@ sessionStorage.clear();
         if (validate()) {
             ///implentation
             // console.log('proceed');
-            fetch("https://my-json-server.typicode.com/jamespeterjacob/jsonserver/user/" + username).then((res) => {
+            fetch("https://my-json-server.typicode.com/jamespeterjacob/adonai/user" + username).then((res) => {
                 return res.json();
             }).then((resp) => {
                 //console.log(resp)
@@ -54,7 +54,7 @@ sessionStorage.clear();
             // console.log('proceed');
             let inputobj={"username": username,
             "password": password};
-            fetch("https://my-json-server.typicode.com/jamespeterjacob/jsonserver:44308/User/Authenticate",{
+            fetch("https://my-json-server.typicode.com/jamespeterjacob/adonai/user/Authenticate",{
                 method:'POST',
                 headers:{'content-type':'application/json'},
                 body:JSON.stringify(inputobj)
@@ -133,7 +133,7 @@ sessionStorage.clear();
                         <div className="card-footer" style={{padding:'20px', alignContent:'center'}}>
                             <Button variant="contained" type="submit" className="btn btn-primary" style={{minHeight:'30px', minWidth:'80px'}}>Login</Button> 
                             <span style={{padding:'20px'}}>
-                            <Link className="btn btn-success" to={'/register'} style={{minHeight:'30px'}}>Register</Link>
+                            <Link className="btn btn-success" to={'https://jamespeterjacob.github.io/register'} style={{minHeight:'30px'}}>Register</Link>
                             </span>
                             
                         </div>

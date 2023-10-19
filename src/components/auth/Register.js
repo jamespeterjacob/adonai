@@ -54,13 +54,13 @@ const Register = () => {
             let regobj = { id, name, password, email, phone, country, address, gender };
             if (IsValidate()) {
             //console.log(regobj);
-            fetch("https://my-json-server.typicode.com/jamespeterjacob/jsonserver/users", {
+            fetch("https://my-json-server.typicode.com/jamespeterjacob/adonai/user", {
                 method: "POST",
                 headers: { 'content-type': 'application/json' },
                 body: JSON.stringify(regobj)
             }).then((res) => {
                 toast.success('Registered successfully.')
-                navigate('/login');
+                navigate('/https://jamespeterjacob.github.io/login');
             }).catch((err) => {
                 toast.error('Failed :' + err.message);
             });
@@ -139,7 +139,7 @@ const Register = () => {
                         </div>
                         <div className="card-footer" style={{padding:'20px', alignContent:'center'}}>
                             <button type="submit" className="btn btn-primary" style={{minHeight:'30px', minWidth:'80px'}}>Register</button>
-                            <span style={{padding:'20px'}}> <Link to={'/login'} className="btn btn-danger">Close</Link></span>
+                            <span style={{padding:'20px'}}> <Link to={'https://jamespeterjacob.github.io/login'} className="btn btn-danger">Close</Link></span>
                            
                         </div>
                     </div>

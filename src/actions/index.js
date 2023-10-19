@@ -5,7 +5,7 @@ export const ADD_RECORD = 'ADD_RECORD';
 export const UPDATE_RECORD = 'UPDATE_RECORD';
 export const DELETE_RECORD = 'DELETE_RECORD';
 
-const apiUrl = 'http://localhost:8000/records';
+const apiUrl = 'https://my-json-server.typicode.com/jamespeterjacob/adonai/records';
 
 // export const fetchRecords = () => async (dispatch) => {
 //   const response = await axios.get(apiUrl);
