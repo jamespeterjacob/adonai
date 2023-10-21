@@ -57,9 +57,9 @@ export default function Navbar() {
   {/* <button onClick={openNav}>Open Nav</button>
       <SideNav isOpen={isSideNavOpen} onClose={closeNav} /> */}
   <a href="#">About</a>
-  <Link to="/recordlist" >Quality</Link>
-  <Link to="/joblist" >Jobs</Link>
-  <Link to="/applicantlist" >Applicants</Link>
+  <Link to="/adonai/#recordlist" >Quality</Link>
+  <Link to="/adonai/#joblist" >Jobs</Link>
+  <Link to="/adonai/#applicantlist" >Applicants</Link>
   <a href="#">Contact</a>
  
 </div>
@@ -69,19 +69,8 @@ export default function Navbar() {
 </div>
 
     </div>
-                
-                
-                
-            }
-            
-           
-
-
-
-
-    
-  
-  </nav> 
+    }
+    </nav> 
 }
 
 function CustomLink({to, children, ...props}) {
@@ -92,7 +81,6 @@ function CustomLink({to, children, ...props}) {
       <Link to={to} {...props}>
         {children}
         </Link>
-
     </li>
   )
 }
