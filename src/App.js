@@ -51,7 +51,7 @@ function App() {
      
       <Routes>
        
-       {/* <Route path='/' element={<Home/>}></Route>  */}
+       <Route path='/adonai/#home' element={<Home/>}></Route> 
       <Route path='/adonai/#login' element={<Login/>}>Login</Route>
       <Route path='/adonai/#register' element={<Register/>}>Register</Route>
       <Route path="/adonai/#recordlist" element={<RecordList />} />
