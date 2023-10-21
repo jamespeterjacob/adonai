@@ -139,7 +139,7 @@ const Register = () => {
                         </div>
                         <div className="card-footer" style={{padding:'20px', alignContent:'center'}}>
                             <button type="submit" className="btn btn-primary" style={{minHeight:'30px', minWidth:'80px'}}>Register</button>
-                            <span style={{padding:'20px'}}> <Link to={'https://jamespeterjacob.github.io/login'} className="btn btn-danger">Close</Link></span>
+                            <span style={{padding:'20px'}}> <Link to={'/adonai/#login'} className="btn btn-danger">Close</Link></span>
                            
                         </div>
                     </div>

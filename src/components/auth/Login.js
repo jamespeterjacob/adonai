@@ -36,7 +36,7 @@ sessionStorage.clear();
                         toast.success('Success');
                         sessionStorage.setItem('username',username);
                         sessionStorage.setItem('userrole',resp.role);
-                        usenavigate('/recordlist');
+                        usenavigate('/adonai/#recordlist');
                     }else{
                         toast.error('Please Enter valid credentials');
                     }
@@ -68,7 +68,7 @@ sessionStorage.clear();
                      toast.success('Success');
                      sessionStorage.setItem('username',username);
                      sessionStorage.setItem('jwttoken',resp.jwtToken);
-                   usenavigate('/');
+                   usenavigate('/adonai/#');
                 }
                 // if (Object.keys(resp).length === 0) {
                 //     toast.error('Please Enter valid username');
@@ -133,7 +133,7 @@ sessionStorage.clear();
                         <div className="card-footer" style={{padding:'20px', alignContent:'center'}}>
                             <Button variant="contained" type="submit" className="btn btn-primary" style={{minHeight:'30px', minWidth:'80px'}}>Login</Button> 
                             <span style={{padding:'20px'}}>
-                            <Link className="btn btn-success" to={'/register'} style={{minHeight:'30px'}}>Register</Link>
+                            <Link className="btn btn-success" to={'/adonai/#register'} style={{minHeight:'30px'}}>Register</Link>
                             </span>
                             
                         </div>

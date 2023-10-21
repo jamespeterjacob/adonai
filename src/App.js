@@ -11,7 +11,7 @@ import JobForm from './components/jobs/JobForm';
 import EditJob from './components/jobs/EditJob';
 import Login from './components/auth/Login';
 import Register from './components/auth/Register';
-import { Route, Routes } from 'react-router-dom';
+import { Route, Routes, HashRouter } from 'react-router-dom';
 import Navbar from './components/Navbar'
 import { fetchRecords } from './actions';
 import { fetchJobs } from './actions/jobActions';
@@ -46,19 +46,23 @@ function App() {
       <div className=''>
       {/* <button onClick={openNav}>Open Nav</button>
       <SideNav isOpen={isSideNavOpen} onClose={closeNav} /> */}
+      <HashRouter>
+
+     
       <Routes>
        
        {/* <Route path='/' element={<Home/>}></Route>  */}
-      <Route path='/login' element={<Login/>}>Login</Route>
-      <Route path='/register' element={<Register/>}>Register</Route>
-      <Route path="/recordlist" element={<RecordList />} />
-      <Route path="/add-record" element={<RecordForm />} />
-      <Route path="/edit-record/:id" element={<EditRecord />} />
-      <Route path="/joblist" element={<JobList />} />
-      <Route path="/add-job" element={<JobForm />} />
-      <Route path="/edit-job/:id" element={<EditJob />} />
+      <Route path='/adonai/#login' element={<Login/>}>Login</Route>
+      <Route path='/adonai/#register' element={<Register/>}>Register</Route>
+      <Route path="/adonai/#recordlist" element={<RecordList />} />
+      <Route path="/adonai/#add-record" element={<RecordForm />} />
+      <Route path="/adonai/#edit-record/:id" element={<EditRecord />} />
+      <Route path="/adonai/#joblist" element={<JobList />} />
+      <Route path="/adonai/#add-job" element={<JobForm />} />
+      <Route path="/adonai/#edit-job/:id" element={<EditJob />} />
       
     </Routes>
+    </HashRouter>
       </div>
     </Provider>
   );
