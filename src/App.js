@@ -3,6 +3,7 @@ import { Provider } from 'react-redux';
 import { createStore, applyMiddleware } from 'redux';
 import thunk from 'redux-thunk';
 import reducers from './reducers';
+import Home from './components/dashboard/Home'
 import RecordList from './components/quality/RecordList';
 import RecordForm from './components/quality/RecordForm';
 import EditRecord from './components/quality/EditRecord';
