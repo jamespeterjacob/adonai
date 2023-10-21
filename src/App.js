@@ -12,7 +12,7 @@ import JobForm from './components/jobs/JobForm';
 import EditJob from './components/jobs/EditJob';
 import Login from './components/auth/Login';
 import Register from './components/auth/Register';
-import { Route, Routes, HashRouter } from 'react-router-dom';
+import { Route, Router, HashRouter } from 'react-router-dom';
 import Navbar from './components/Navbar'
 import { fetchRecords } from './actions';
 import { fetchJobs } from './actions/jobActions';
@@ -48,11 +48,9 @@ function App() {
       {/* <button onClick={openNav}>Open Nav</button>
       <SideNav isOpen={isSideNavOpen} onClose={closeNav} /> */}
       <HashRouter>
-
-     
-      <Routes>
+        <Router>
        
-       <Route path='/adonai/#home' element={<Home/>}></Route> 
+      <Route path='/adonai/#home' element={<Home/>}></Route> 
       <Route path='/adonai/#login' element={<Login/>}>Login</Route>
       <Route path='/adonai/#register' element={<Register/>}>Register</Route>
       <Route path="/adonai/#recordlist" element={<RecordList />} />
@@ -62,7 +60,7 @@ function App() {
       <Route path="/adonai/#add-job" element={<JobForm />} />
       <Route path="/adonai/#edit-job/:id" element={<EditJob />} />
       
-    </Routes>
+    </Router>
     </HashRouter>
       </div>
     </Provider>
