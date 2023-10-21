@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/adonai/static/css/main.bf1f5aa1.css",
-    "main.js": "/adonai/static/js/main.62082e8e.js",
+    "main.js": "/adonai/static/js/main.e8240ecc.js",
     "static/js/787.706fa002.chunk.js": "/adonai/static/js/787.706fa002.chunk.js",
     "index.html": "/adonai/index.html",
     "main.bf1f5aa1.css.map": "/adonai/static/css/main.bf1f5aa1.css.map",
-    "main.62082e8e.js.map": "/adonai/static/js/main.62082e8e.js.map",
+    "main.e8240ecc.js.map": "/adonai/static/js/main.e8240ecc.js.map",
     "787.706fa002.chunk.js.map": "/adonai/static/js/787.706fa002.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bf1f5aa1.css",
-    "static/js/main.62082e8e.js"
+    "static/js/main.e8240ecc.js"
   ]
 }
